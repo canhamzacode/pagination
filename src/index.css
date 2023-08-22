@@ -1,0 +1,32 @@
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+}
+
+.list {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+.pagination {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.pagination button {
+  padding: 10px;
+}
+
+.active {
+  background: black;
+  color: #fff;
+  border: 1px solid #fff;
+}
